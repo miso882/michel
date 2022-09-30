@@ -1,0 +1,636 @@
+*{
+margin: 0;
+padding 0;
+box-sizing: border-box;
+
+}
+
+/*------------navbar section----------*/
+
+.nav-bar ul
+{
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+list-style-type: none;
+background-image: linear-gradient(to right,#000, #000);
+height: 100;
+width: 100;
+}
+
+.nav-bar ul li
+{
+display: inline-block;
+font-family: 'Indie Flower', cursive;
+}
+
+.nav-bar li a
+{
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+display: block;
+padding: 25px 20px;
+font-size: 16px;
+}
+
+/*------------intro section----------*/
+#into
+{
+
+display: flex;
+width: 100%;
+height: 85vh;
+background-image: linear-gradient(to right,#000, #fff) ,url(image/table.jpg);
+background-size: cover;
+background-blend-mode: multiply;
+align-items: center; 
+justify-content: center;
+}
+
+#into .intro-text
+{
+color: #fff;
+text-align: center;
+}
+
+#into .intro-text h1
+{
+font-size: 60px;
+font-weight: 400;
+font-family: 'Indie Flower', cursive;
+}
+
+#into .intro-text p
+{
+font-family: 'Raleway', sans-serif;
+}
+
+.btn-intro
+{
+display: inline-block;
+font-family: 'Raleway', sans-serif;
+background-color: #000000;
+color: #fff;
+text-decoration: none;
+padding: 15px 20px;
+border-radius: 100px;
+font-size: 14px;
+transition: all 0.4s;
+}
+
+.margin-top
+{
+margin-top: 19px;
+}
+
+.btn-intro:hover
+{
+ background-color: #fff;
+ color: #000;
+}
+
+
+/*-------------recipe    section-----------*/
+.text-card
+{
+padding: 30px 15px;
+height: 150px;
+width: 100%;
+position: absolute;
+bottom: 0px;
+text-align: center;
+color: #fff;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-card h5
+{
+color: orange;
+font-size: 20px;
+font-weight: 500px;
+}
+
+/*----    -------       card        -----     ----*/
+
+.card
+{
+margin: 12px;
+position: relative;
+width: 100%;
+height:100%;
+background-color: rgba(0, 0, 0, 0);
+overflow: hidden;
+border-radius: 2px;
+}
+
+.img--card
+{
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+ transition; all 0.9s;
+ object-fit: cover;
+}
+
+.img--card:hover  
+{
+ transform: scale(1.2,1.2);
+}
+    
+.bodyyyy
+{
+padding: 15px 15px;
+height: 100px;
+width: 100%;
+position: absolute;
+bottom: 0px;
+text-align: center;
+color: #fff;
+background-color: black;
+
+}
+
+.bodyyyy h5
+{
+font-family: 'Indie Flower', cursive;
+color: 000;
+font-size: 20px;
+font-weight: 500;
+}
+
+.bodyyyy p
+{
+color: 000;
+font-size: 20px;
+font-weight: 500;
+}
+
+
+
+/*----------------footer section-----------*/
+
+
+.footer-basic {
+  padding:40px 80;
+  margin: 20px;
+  background-color: #fff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+/*----------------------what is gluten free  -------------------*/
+
+.gluten-free-imm
+{
+  height:300px;
+  width:300px;
+  padding: 20px;
+}
+
+.des-con
+{
+padding: 20px 10px 10px 20px;
+}
+
+.des-con p
+{
+padding: 10px;
+font-family: 'Raleway', sans-serif;
+}
+
+.des-con h2
+{
+padding: 10px;
+font-family: 'Indie Flower', cursive;
+}
+
+.des-con ul li
+{
+font-family: 'Raleway', sans-serif;
+}
+
+
+/*----------------------  about section  -------------------*/
+
+.about-me
+{
+width: 100%; 
+padding: 78px 0px;
+background-color: black;
+}
+
+.about-me img
+{
+float: right;
+width: 55%;
+}
+
+.about-text
+{
+width: 550px; 
+}
+
+.main
+{
+width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around; 
+}
+
+.about-text h1
+{
+color: white;
+font-size: 80px;
+text-transform: uppercase;
+margin-bottom: 20px;
+font-family: 'Raleway', sans-serif;
+}
+
+.span
+{
+color: #245643;
+}
+
+.about-text p
+{
+color: white;
+font-size: 18px;
+line-height: 28px;
+margin-bottom: 45px;
+letter-spacing: 1px;
+font-family: 'Indie Flower', cursive;
+}
+
+
+.btn-about
+{
+display: inline-block;
+font-family: 'Raleway', sans-serif;
+background-color: #000000;
+color: #fff;
+text-decoration: none;
+padding: 15px 20px;
+border-radius: 100px;
+font-size: 14px;
+transition: all 0.4s;
+font-weight: bold;
+}
+
+.btn-about:hover
+{
+background-color: #fff;
+ color: #000;
+ font-weight: bold;
+ border: 2px solide white;
+}
+
+/*----------------------  join us section  -------------------*/
+
+
+.join-us
+{
+
+
+padding: 60px 0;
+}
+
+.join-us h1
+{
+text-align: center;
+color: #000;
+font-family: 'Indie Flower', cursive;
+font-size: 95px;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+
+.border
+{
+width: 100px;
+height: 10px;
+background-image: linear-gradient(to right,#000, #fff);
+margin: 40px auto;
+}
+
+.contact-form
+{
+max-width: 600px;
+margin: auto;
+padding: 0 10px;
+overflow: hidden;
+}
+
+.contact-form-text
+{
+display: block;
+width: 100%;
+box-sizing: border-box;
+margin: 16px 0;
+border: 0;
+padding: 20px 40px;
+outline: none;
+background-color: #DDDDDD;
+transition: 0.5s;
+}
+
+.contact-form-text:focus
+{
+box-shadow: 0 0 10px 4px #34495E;
+}
+
+.contact-form-btn
+{
+float: right;
+border: 0;
+color: #000;
+background-color: #DDDDDD;
+color: #fff;
+padding: 12px 50px;
+border-radius: 20px;
+cursos: pointer;
+transition: 0.5s;
+}
+
+.contact-form-btn:hover
+{
+background-color: #000;
+}
+
+.text-label-join-us
+{
+font-family: 'Raleway', sans-serif;
+}
+
+
+/*----------------------  recipe  section  -------------------*/
+
+
+.recipe-intro
+{
+background-color: #F1FEA4; 
+padding: 35px 35px;
+display: block;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-family: 'Indie Flower', cursive;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+
+/*-------------recipe    section-----------*/
+.text-card
+{
+padding: 30px 15px;
+height: 150px;
+width: 100%;
+position: absolute;
+bottom: 0px;
+text-align: center;
+color: #fff;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-card h5
+{
+color: orange;
+font-size: 20px;
+font-weight: 500px;
+font-family: 'Indie Flower', cursive;
+}
+
+/*----    -------       card        -----     ----*/
+
+.card-recipe-sec
+{
+margin: 12px;
+padding-bottom: 12px;
+position: relative;
+width: 100%;
+height:100%;
+background-color: rgba(0, 0, 0, 0);
+overflow: hidden;
+border-radius: 2px;
+
+}
+
+.img-card-recipe
+{
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+ transition; all 0.9s;
+ object-fit: cover;
+ margin-bottom: 12px;
+}
+
+.img-card-recipe:hover  
+{
+ transform: scale(1.2,1.2);
+}
+    
+.body-recipe
+{
+padding: 15px 15px;
+height: 100px;
+width: 100%;
+position: absolute;
+bottom: 0px;
+text-align: center;
+color: #fff;
+background-color: black;
+
+}
+
+.body-recipe h5
+{
+
+font-family: 'Indie Flower', cursive;
+color: 000;
+font-size: 20px;
+font-weight: 500;
+}
+
+.body-recipe p
+{
+color: 000;
+font-size: 20px;
+font-weight: 500;
+}
+
+/*-------------------------------------- recipe -----------------------------------*/
+
+.dish-name
+{
+padding: 20px;
+text-transform: uppercase;
+font-size: 40px;
+font-family: 'Raleway', sans-serif;
+}
+
+
+
+.recipe-img-sec
+{
+height: auto;
+width: 400px;
+margin-top: 50px;
+float: right;
+padding-right: 50px;
+margin-right: 40px;
+padding-top: 7px;
+border-radius: 5px;
+}
+
+.recipe-img-sec-crep
+{
+height: auto;
+width: 400px;
+margin-top: 50px;
+float: right;
+padding-right: 30px;
+margin-right: 10px;
+padding-top: 10px;
+margin-top: 125px;
+border-radius: 5px;
+}
+
+
+
+.ingredient
+{
+background-color: #DDDDDD;
+color: #fff;
+border-radius: 4px;
+padding: 20px;
+margin: 30px;
+font-family: 'Raleway', sans-serif;
+}
+
+.products
+{
+color: #F62463;
+text-decoration: none;
+}
+
+.products:hover
+{
+color: #F1FEA4;
+}
+
+
+.ingredient p
+{
+color: #000;
+padding: 10px;
+font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+.prepration
+{
+background-color: #DDDDDD;
+color: #fff;
+margin: 30px;
+padding: 20px;
+border-radius: 4px;
+}
+
+.prepration p
+{
+color: #000;
+padding: 10px;
+font-family: 'Raleway', sans-serif;
+}
+
+.prepration h4
+{
+color: #fff;
+padding: 10px;
+font-weight: bold;
+font-size: 35px;
+font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
